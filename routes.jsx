@@ -15,7 +15,7 @@ const routes = createBrowserRouter([
             { path: "/streaming", element: <Streaming /> },
             { path: "/playlist", element: <Playlist /> },
             { path: "/bookmark", element: <Bookmark /> },
-            { path: "/category/:id", element: <Category /> },
+            { path: "/category/:category", element: <Category /> },
         ]
     }
 ])
