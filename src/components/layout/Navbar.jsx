@@ -9,9 +9,9 @@ import NavItem from '../NavItem'
 
 const Navbar = () => {
   return (
-    <div className='w-2/12 min-w-min max-w-min p-6 text-gray-500 max-h-[calc(100vh-60px)] overflow-auto '>
+    <div className='w-2/12  min-w-min max-w-min p-6 text-gray-500 max-h-[calc(100vh-60px)] overflow-auto '>
       <h1 className='text-2xl font-semibold mb-4 text-gray-300 hidden md:block'>skateboard</h1>
-      <h1 className='text-2xl font-semibold mb-8 text-gray-300 text-center bg-active2  rounded-full md:hidden'>S</h1>
+      <h1 className='text-4xl font-semibold mb-8 text-gray-300 text-center bg-active2  rounded-full md:hidden'>S</h1>
       <div className='font-semibold space-y-4'>
         <div className='flex flex-col gap-y-2 mb-6'>
           <h2 className='font-medium hidden md:block'>Menu</h2>
