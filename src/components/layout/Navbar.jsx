@@ -15,8 +15,10 @@ const Navbar = () => {
       <div className='font-semibold text-lg space-y-4'>
         <div className='flex flex-col gap-y-4 mb-6'>
           <h2 className='font-medium hidden md:block'>Menu</h2>
-
-          <NavItem label="Discover" Icon={HomeIcon} to="/" identifier="discover" />
+          {/* <NavLink className='hover:text-gray-300 flex items-center gap-x-2 discover group' to="/">
+            <HomeIcon className="transition-all  w-8 h-8 p-2 bg-inactivebg group-hover:bg-active1 group-hover:text-gray-200 rounded-lg relative " /> <span className=' hidden absolute left-24 bg-inactivebg md:bg-transparent px-3 pb-1 text-sm md:text-lg  rounded  md:static group-hover:block md:block'> Discover</span>
+          </NavLink> */}
+          <NavItem label="Discover" Icon={HomeIcon} to="/" identifier="discover" active="active1" />
           <NavItem label='Trending' Icon={TrendingIcon} to="/trending" identifier="trending" active="active2" />
           <NavItem label='Streaming' Icon={StreamingIcon} to="/streaming" identifier="streaming" active="active3" />
           <NavItem label='Playlist' Icon={PlaylistIcon} to="/playlist" identifier="playlist" active="active4" />
