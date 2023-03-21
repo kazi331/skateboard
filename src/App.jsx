@@ -1,5 +1,4 @@
 import React from 'react'
-import BannerSlider from './Component/Home/Discover/BannerSlider'
 import Discover from './Component/Home/Discover/Discover'
 
 const App = () => {
