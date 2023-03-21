@@ -6,7 +6,7 @@ const Header = () => {
   const [showMenu, setShowMenu] = useState(false)
 
 
-/*   window.addEventListener("click", (e) => {
+  window.addEventListener("click", (e) => {
     // close when click on menu items
 
     if (e.target.parentElement?.id === "menu") {
@@ -16,7 +16,7 @@ const Header = () => {
     if (e.target.parentElement?.id !== "menu" && e.target.parentElement?.id !== "menu-btn") {
       setShowMenu(false)
     }
-  }) */
+  })
 
   return (
     <header className='flex justify-between space-x-4 mb-4'>
@@ -32,7 +32,7 @@ const Header = () => {
           </svg>
         </button>
         {/* profile menu  */}
-        <div id="menu" className={` ${showMenu ? "z-20 top-full" : "-z-10 top-14"} transition-all duration-200 absolute top-full right-0  flex flex-col text-gray-300  whitespace-pre-wrap min-w-max bg-inactiveBg bg-opacity-40 backdrop-blur-2xl shadow-lg items-start  rounded-lg py-2 text-sm`}>
+        <div id="menu" className={` ${showMenu ? "z-20 top-full" : "-z-10 top-14"} transition-all duration-200 absolute top-full right-0  flex flex-col text-gray-300  whitespace-pre-wrap min-w-max bg-inactiveBg bg-opacity-60 backdrop-blur-3xl shadow-lg items-start  rounded-lg py-2 text-sm`}>
           <Link href="/profile" className='flex gap-x-2 py-2 px-3 rounded items-center hover:text-white hover:bg-white hover:bg-opacity-5 hover:backdrop-blur-3xl w-full'>
             <img className='w-6 h-6 rounded-xl object-cover' src="https://sharif.rocks/static/media/me.d3a2f6d2099663316429.jpg" alt="" />
             Kazi Shariful Islam
