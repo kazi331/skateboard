@@ -2,7 +2,7 @@ import React from 'react'
 import { NavLink } from 'react-router-dom'
 
 const NavItem = ({ to, Icon, identifier, active = "active1", label = "Label" }) => {
-    console.log(identifier)
+    // console.log(identifier)
     return (
         <NavLink className={`hover:text-gray-300 nav-item flex items-center gap-x-2 py-1 group ${identifier}`} to={to}>
             <Icon className={`transition-all w-10 md:w-8  h-10 md:h-8 p-2 bg-inactiveBg  group-hover:text-white rounded-lg relative `} />
