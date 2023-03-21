@@ -21,15 +21,16 @@
 }
 
 .banner-content-1 {
-    background: url('../../assets/Images/banner1.jpg');
-    background-position: center;
-    background-size: cover;
+    background: url('../../assets/Images/skate-removebg-.png');
+    background-position: right;
+  border-radius: 50%;
     background-repeat: no-repeat;
 }
 .banner-content{
 background: url('../../assets/Images/2nd-banner2.jpg');
-background-position: center;
+background-position: center ;
 background-size: cover;
+border-radius: 100%;
 background-repeat: no-repeat;
 }
 
@@ -39,5 +40,11 @@ background-repeat: no-repeat;
             height: 100%;
     
         }
-    
+        .banner-content-1 {
+            background: url('../../assets/Images/skate-removebg-.png');
+            background-position: center;
+            background-size: cover;
+            border-radius: 100%;
+            background-repeat: no-repeat;
+        }
 }
