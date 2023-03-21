@@ -13,7 +13,7 @@ module.exports = {
         active3: "#6C5ECF",
         active4: "#32A7E2",
         active5: "#6C5ECF",
-        inactivebg: "#353340",
+        inactiveBg: "#353340",
       },
     },
   },

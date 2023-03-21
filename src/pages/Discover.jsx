@@ -1,10 +1,11 @@
 import React from 'react'
+import Banner from '../components/Discover/Banner'
 
 const Discover = () => {
   return (
     <div>
       <h2>Discover</h2>
-      <p> New discover</p>
+     <Banner/>
     </div>
   )
 }
