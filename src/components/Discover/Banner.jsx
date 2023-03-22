@@ -1,14 +1,14 @@
 
 import React from 'react';
 import { Swiper, SwiperSlide } from "swiper/react";
+import { BsFillCheckCircleFill} from "react-icons/bs";
 import "swiper/css";
 import "swiper/css/pagination";
 import { Autoplay } from "swiper";
 import './Banner.css';
 import avatarImg from '../../assets/Images/alif.jpg';
 import avatarImg2 from '../../assets/Images/avatar2.jpg';
-import bannerImg from '../../assets/Images/skate-removebg-.png';
-import bannerImg2 from '../../assets/Images/2nd-banner2.jpg';
+
 
 function Banner() {
     return (
@@ -27,8 +27,9 @@ function Banner() {
                              <h1 className="text-3xl font-bold lg:w-1/3">How to do Basic Jumping and how to landing safely</h1>
                                 <div className='flex justify-start items-center pt-6 '>
                                     <div className='flex justify-between items-center'>
-                                          <div className='w-12 h-12'>
+                                          <div className='w-12 h-12 relative'>
                                     <img className='rounded-full border-2 p-1' src={avatarImg} alt="user-img" />
+                                     <BsFillCheckCircleFill size='20px'  className='p-1   bg-[#0aa0f7] rounded-full border-0 absolute right-0 bottom-0'/>
                                     </div> 
                                      <div className='ml-4'>
                                             <h1 className='font-bold'>Thomas Hope</h1>
@@ -48,13 +49,11 @@ function Banner() {
                             </div>
                          
         <p className= 'fixed right-6 bottom-6 bg-gray-500 p-1 rounded-lg text-xs opacity-90 h-6'>7 min</p> </SwiperSlide>
-    <SwiperSlide className="rounded-lg p-6 banner-content opacity-90 lg:80 " >  
-                  
+    <SwiperSlide className="rounded-lg p-6 banner-content opacity-90 lg:80 " >                
                              <div className=' text-start '>
                              <h1 className="text-3xl font-bold lg:w-1/3 mt-2">Skateboard Tips You need to know</h1>
                                 
-                                    <div className='mt-6'>
-                                        
+                                    <div className='mt-6'>               
                                      <div >
                                             <h1 className='font-bold'>Thomas Hope</h1>
                                             <div className='flex  text-xs'>
@@ -72,8 +71,9 @@ function Banner() {
                            
                                 
                         </div>
-                         <div className='w-12 h-12 mt-4'>
-                                    <img className='rounded-full border-2 p-1' src={avatarImg2} alt="user-img" />
+                         <div className='w-12 h-12 mt-4 relative'>
+                            <img className='rounded-full border-2 p-1' src={avatarImg2} alt="user-img" />
+                            <BsFillCheckCircleFill size='20px'  className='p-1 rounded-full border-0 absolute right-0 bottom-0'/>
                                     </div> 
                             </div>
                           <p className= 'fixed right-6 bottom-6 bg-gray-500 opacity-90 p-1 rounded-lg text-xs h-6'>7 min</p>

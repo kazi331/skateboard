@@ -1,5 +1,5 @@
 import React from 'react';
-import { BookmarkIcon, UsersIcon } from '../../utils/Icons';
+import { BsFillCheckCircleFill } from 'react-icons/bs';
 
 const WatchInfoDetails = ({ Info }) => {
     const { name, des, time, week, userImg, userVideo,views,bg } = Info;
@@ -9,8 +9,9 @@ const WatchInfoDetails = ({ Info }) => {
                 <video  width="250 rounded-2xl" >
             <source src={userVideo} type="video/mp4"/>
                 </video>
+                <p className='absolute top-2 right-2 bg-gray-500 opacity-60 rounded-lg text-xs p-1 '>{time} </p>
                 <img className='absolute right-2 bottom-[-24px] w-14 h-14 border-2 p-1 rounded-full' src={userImg} alt="user-img" />
-                
+                <BsFillCheckCircleFill size='20px'  className='p-1 fill-[#0aa0f7]  bg-[#353340] rounded-full border-0 absolute right-2'/>
             </div>
             <div className='p-4'>
                 <div className='flex  items-center'>
