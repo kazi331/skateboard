@@ -9,10 +9,10 @@ import NavItem from '../NavItem'
 
 const Navbar = () => {
   return (
-    <div className='w-2/12  min-w-min max-w-min p-6 text-gray-500 max-h-[calc(100vh-60px)] overflow-auto '>
+    <div className='w-2/12   min-w-min max-w-min p-6 text-gray-500  '>
       <h1 className='text-2xl font-semibold mb-4 text-gray-300 hidden md:block'>skateboard</h1>
-      <h1 className='text-4xl font-semibold mb-8 text-gray-300 text-center bg-active2  rounded-full md:hidden'>S</h1>
-      <div className='font-semibold space-y-4'>
+      <h1 className='text-4xl font-semibold mb-8 text-gray-300 w-10 h-10  text-center bg-active3  rounded-full md:hidden'>S</h1>
+      <div className='font-semibold space-y-4 pr-5 text-sm max-h-[calc(100vh-50px)] overflow-auto'>
         <div className='flex flex-col gap-y-2 mb-6'>
           <h2 className='font-medium hidden md:block'>Menu</h2>
           {/* <NavLink className='hover:text-gray-300 flex items-center gap-x-2 discover group' to="/">
@@ -25,7 +25,7 @@ const Navbar = () => {
           <NavItem label='Bookmark' Icon={BookmarkIcon} to="/bookmark" identifier="bookmark" active="active5" />
 
         </div>
-        <hr className='border  border-gray-600 w-10/12 mx-auto ' />
+        <hr className='border border-gray-600 w-10/12 mx-auto ' />
         <div className='flex flex-col gap-y-2 '>
           <h2 className='font-medium hidden md:block'>Category</h2>
           <NavItem label='Live streaming' Icon={LivekIcon} to="/category/live" identifier="discover" active="active1" />
