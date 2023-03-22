@@ -6,7 +6,7 @@ const WatchInfoDetails = ({ Info }) => {
     const { name, des, time, week, userImg, userVideo,views,bg } = Info;
     return (
         <div className='lg:w-60 watch-container bg-[#353340] rounded-2xl '>
-            <div className='relative '>
+            <div className='relative rounded-lg '>
                 <HoverVideoPlayer className="rounded-xl   video-content"
       videoSrc={userVideo} 
                     pausedOverlay={
