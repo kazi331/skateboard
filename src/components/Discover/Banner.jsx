@@ -79,7 +79,6 @@ function Banner() {
                           <p className= 'fixed right-6 bottom-6 bg-gray-500 opacity-90 p-1 rounded-lg text-xs h-6'>7 min</p>
                     
         </SwiperSlide>
-        
             </Swiper>  
             
 
@@ -105,8 +104,8 @@ function Banner() {
                            
                                 
                         </div>
-                         <div className='w-12 h-12 mt-4'>
-                                    <img className='rounded-full border-2 p-1' src={avatarImg} alt="user-img" />
+                         <div className=' mt-4'>
+                                    <img className='w-12 h-12 rounded-full border-2 p-1' src={avatarImg} alt="user-img" />
                                     </div> 
                             </div>
                         </div>
@@ -131,8 +130,9 @@ function Banner() {
                                            <p className='ml-2'>2 weeks ago </p>
                                             </div>        
                         </div>
-                         <div className='w-12 h-12 mt-4'>
-                                    <img className='rounded-full border-2 p-1' src={avatarImg2} alt="user-img" />
+                         <div className=' mt-4'>
+                                    <img className=' w-12 h-12 rounded-full border-2 p-1' src={avatarImg2} alt="user-img" />
+                                    
                                     </div> 
                     </div>
                 
