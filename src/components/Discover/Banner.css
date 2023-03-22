@@ -1,5 +1,5 @@
 .swiper {
-    width: 100%;
+    width: 95%;
     height: 100%;
 
 }
@@ -23,6 +23,7 @@
 .banner-content-1 {
     background: url('../../assets/Images/skate-removebg-.png');
     background-position: right;
+    /* background-size: cover; */
   border-radius: 50%;
     background-repeat: no-repeat;
 }

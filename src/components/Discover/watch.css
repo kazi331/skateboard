@@ -1,0 +1,22 @@
+.watch-container:hover .video-content{
+height: 150px;
+
+}
+.watch-container:hover .image-content{
+    width: 40px;
+    height: 40px;
+}
+.watch-container:hover .time-content{
+    display: none;
+}
+.watch-container:hover .icon{
+    size: 5px;
+    bottom: -20px;
+    right: 2px;
+}
+.watch-container:hover .name-content {
+    display: none;
+}
+.watch-container {
+    transition:height 0.3;
+}
