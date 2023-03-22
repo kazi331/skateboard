@@ -1,18 +1,20 @@
 import React from 'react';
-import { UsersIcon } from '../../utils/Icons';
+import { BookmarkIcon, UsersIcon } from '../../utils/Icons';
 
 const WatchInfoDetails = ({ Info }) => {
     const { name, des, time, week, userImg, userVideo,views,bg } = Info;
     return (
         <div className='w-60  bg-[#353340] rounded-2xl '>
             <div className='relative'>
-                <video controls width="250 rounded-2xl" >
+                <video  width="250 rounded-2xl" >
             <source src={userVideo} type="video/mp4"/>
                 </video>
-                <img className='w-6 h-6 rounded-full' src={userImg} alt="user-img" />
+                <img className='absolute right-2 bottom-[-24px] w-14 h-14 border-2 p-1 rounded-full' src={userImg} alt="user-img" />
+                
             </div>
             <div className='p-4'>
                 <div className='flex  items-center'>
+
                     <h1 className=' text-gray-500'>{name}</h1>
                 <div className={`ml-2 w-1 h-1 rounded-lg bg-${bg}-500`}></div>
                 </div>

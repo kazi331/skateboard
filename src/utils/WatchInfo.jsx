@@ -27,7 +27,7 @@ export const WatchInfo = [
         views: '64k ',
         week: '2 week ago',
         time: '6 min',
-        userImg: 'https://images.pexels.com/photos/1680172/pexels-photo-1680172.jpeg',
+        userImg: 'https://images.pexels.com/photos/1870163/pexels-photo-1870163.jpeg',
         userVideo:'https://player.vimeo.com/external/390402719.sd.mp4?s=20cfdb066c4253047562b65bd4e411b86a004bc5&profile_id=139&oauth2_token_id=57447761',bg:'green',
     },
       {
