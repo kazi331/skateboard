@@ -1,4 +1,4 @@
-import React, { useRef, useState } from 'react'
+import React, { useState } from 'react'
 import { Link } from 'react-router-dom'
 import { HomeIcon, LikeIcon, NotificationIcon, UsersIcon } from '../../utils/Icons'
 
@@ -32,7 +32,7 @@ const Header = () => {
           </svg>
         </button>
         {/* profile menu  */}
-        <div id="menu" className={` ${showMenu ? "z-20 top-full" : "-z-10 top-14"} transition-all duration-200 absolute top-full right-0  flex flex-col text-gray-300  whitespace-pre-wrap min-w-max bg-inactiveBg bg-opacity-60 backdrop-blur-3xl shadow-lg items-start  rounded-lg py-2 text-sm`}>
+        <div id="menu" className={` ${showMenu ? "z-20 top-full" : "-z-10 top-16"} transition-all duration-300 absolute right-0  flex flex-col text-gray-300  whitespace-pre-wrap min-w-max bg-inactiveBg bg-opacity-60 backdrop-blur-3xl shadow-lg items-start  rounded-lg py-2 text-sm`}>
           <Link href="/profile" className='flex gap-x-2 py-2 px-3 rounded items-center hover:text-white hover:bg-white hover:bg-opacity-5 hover:backdrop-blur-3xl w-full'>
             <img className='w-6 h-6 rounded-xl object-cover' src="https://sharif.rocks/static/media/me.d3a2f6d2099663316429.jpg" alt="" />
             Kazi Shariful Islam
