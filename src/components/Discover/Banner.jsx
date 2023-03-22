@@ -47,7 +47,7 @@ function Banner() {
                            </div>
                             </div>
                          
-        <p className= 'fixed right-6 bottom-6 bg-gray-500 p-1 rounded-lg text-xs opacity-60 h-6'>7 min</p> </SwiperSlide>
+        <p className= 'fixed right-6 bottom-6 bg-gray-500 p-1 rounded-lg text-xs opacity-90 h-6'>7 min</p> </SwiperSlide>
     <SwiperSlide className="rounded-lg p-6 banner-content opacity-90 lg:80 " >  
                   
                              <div className=' text-start '>
@@ -76,7 +76,7 @@ function Banner() {
                                     <img className='rounded-full border-2 p-1' src={avatarImg2} alt="user-img" />
                                     </div> 
                             </div>
-                          <p className= 'fixed right-6 bottom-6 bg-gray-500 opacity-50 p-1 rounded-lg text-xs h-6'>7 min</p>
+                          <p className= 'fixed right-6 bottom-6 bg-gray-500 opacity-90 p-1 rounded-lg text-xs h-6'>7 min</p>
                     
         </SwiperSlide>
         
@@ -86,35 +86,59 @@ function Banner() {
             {/* mobile:****************************
          */}
             <div className='rounded-lg'>
-                    <div className="rounded-lg p-6 banner-content-1  bg-sky-500 lg:80 overflow-hidden w-80 lg:hidden block mb-6" >  
+                    <div className="rounded-lg p-6 banner-content-1  bg-sky-500 lg:80 overflow-hidden w-80 lg:hidden block mb-6 opacity-90" >  
                           <div className=' text-start rounded-lg'>
-                             <h1 className="lg:text-3xl text-xl font-bold w-1/3">Skateboard Tips You need to know</h1>
+                             <h1 className="lg:text-3xl text-xl font-bold w-2/3">How to do Basic Jumping and how to landing safely</h1>
                                 <div className='pt-6 '>
-                                    <div className='flex justify-between items-center'>
-                                          <div className=' lg:w-12 lg:h-12 '>
-                                    <img className='rounded-full border-2 p-1 w-12 h-12 ' src={avatarImg} alt="user-img" />
+                                   <div >
+                                            <h1 className='font-bold'>Thomas Hope</h1>
+                                            <div className='flex  text-xs'>
+                                            <p> 53K views</p>
+                                            <div className='flex justify-center items-center ml-4'>
+                                                <div className="w-1 h-1 rounded-full bg-gray-300 p-1">
+                                                   
+                                                </div>
+                                           <p className='ml-2'>2 weeks ago </p>
+                                          
+                                </div>
+                                   
+                           
+                                
+                        </div>
+                         <div className='w-12 h-12 mt-4'>
+                                    <img className='rounded-full border-2 p-1' src={avatarImg} alt="user-img" />
                                     </div> 
-                               
-                                  </div>
+                            </div>
                         </div>
                           
                     </div>
-                    <p className='absolute right-12 bottom-0  bg-gray-500 p-1 rounded-lg text-xs h-6 opacity-50'>7 min</p>
+                    <p className='absolute right-12 bottom-0  bg-gray-500 p-1 rounded-lg text-xs h-6 opacity-90 mt-6'>7 min</p>
                          
         </div>
-            <div className="rounded-lg p-6 banner-content  lg:80 overflow-hidden w-80 lg:hidden block " >  
-                          <div className=' text-start '>
-                             <h1 className="lg:text-3xl text-xl font-bold w-1/3">Skateboard Tips You need to know</h1>
+            <div className="rounded-lg p-6 banner-content  lg:80 overflow-hidden w-80 lg:hidden block opacity-95" >  
+                          <div className=' text-start w-2/3'>
+                             <h1 className="lg:text-3xl text-xl font-bold ">Skateboard Tips You need to know</h1>
                                 <div className='pt-6 '>
-                                    <div className='flex justify-between items-center'>
-                                          <div className=' lg:w-12 lg:h-12 '>
-                                    <img className='rounded-full border-2 p-1 w-12 h-12' src={avatarImg2} alt="user-img" />
+                                  
+                            <div >
+                                            <h1 className='font-bold'>Thomas Hope</h1>
+                                            <div className='flex  text-xs'>
+                                            <p> 53K views</p>
+                                            <div className='flex justify-center items-center ml-4'>
+                                                <div className="w-1 h-1 rounded-full bg-gray-300 p-1">
+                                                   
+                                                </div>
+                                           <p className='ml-2'>2 weeks ago </p>
+                                            </div>        
+                        </div>
+                         <div className='w-12 h-12 mt-4'>
+                                    <img className='rounded-full border-2 p-1' src={avatarImg2} alt="user-img" />
                                     </div> 
-                                     
-                                  </div>
+                    </div>
+                
                            </div>
                             </div>
-                        <p className='absolute right-12 bottom-0  bg-gray-500 p-1 rounded-lg text-xs h-6 opacity-50'>7 min</p> 
+                        <p className='absolute right-8 bottom-[-5px]bg-gray-500 p-1 rounded-lg text-xs h-6 opacity-90 '>7 min</p> 
         </div>
         </div>
         </div>
